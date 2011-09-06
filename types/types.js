@@ -77,6 +77,7 @@ steal.then(function() {
 .then('documentjs/types/attribute.js')
 .then('documentjs/types/class.js')
 .then('documentjs/types/function.js')
+.then('documentjs/types/method.js')
 .then('documentjs/types/page.js')
 .then('documentjs/types/prototype.js')
 .then('documentjs/types/script.js')
