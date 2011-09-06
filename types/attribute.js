@@ -30,7 +30,7 @@ steal.then(function() {
 	 * @return {Boolean} true if code matches an attribute
 	 */
 		codeMatch: function( code ) {
-			return code.match(/(\w+)\s*[:=]\s*/) && !code.match(/(\w+)\s*[:=]\s*function\(([^\)]*)/)
+			return code.match(/(\w+)\s*[:=]\s*/) && !code.match(/(\w+)\s*[:=]\s*function\s?\(([^\)]*)/)
 		},
 	/*
 	 * Must return the name if from the code.
